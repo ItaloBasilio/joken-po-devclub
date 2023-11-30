@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Club Joken Pô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')"> &#x1F44A;</button>
+            <button id="paper" onclick="playHuman('paper')"> &#x270B;</button>
+            <button id="scissors" onclick="playHuman('scissors')"> &#x270C;</button>
+        </div>
+        <div class="gamers">
+            <p>Humano: <span id="human-display"></span></p>
+            <p>Alexia: <span id="machine-display"></span></p>
+        </div>
+
+        <p class="result"></p>
+
+
+        <p class="your-score">Sua pontuação:<span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da Alexa:<span id="machine-score">0</span></p>
+
+    </div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
